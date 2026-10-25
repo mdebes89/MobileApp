@@ -14,8 +14,8 @@ class Settings(BaseSettings):
     mistral_base_url: str = "https://api.mistral.ai/v1"
     mistral_chat_model: str = "mistral-large-latest"
     mistral_tts_model: str = "voxtral-mini-tts-3-0"
-    mistral_tts_voice_male: str = "alexander"
-    mistral_tts_voice_female: str = "amelia"
+    mistral_tts_voice_male: str = "en_paul_neutral"
+    mistral_tts_voice_female: str = "voice_478"
     mistral_tts_chunk_chars: int = 4500
 
     mistral_rpm_limit: int = 30
